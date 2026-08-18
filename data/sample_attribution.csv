@@ -1,0 +1,76 @@
+entity_id,entity_name,scenario_key,scenario_label,spend,impressions,clicks,conversions,conversion_value
+1001,Prospecting | Broad,1d_click,1d click,18500,1820000,39200,163.3,17873.15
+1002,Prospecting | Lookalike,1d_click,1d click,13750,1260000,31100,138.1,14116.77
+1003,Retargeting | 30 Day,1d_click,1d click,8250,415000,18400,156.4,18356.05
+1004,Creative Test | Video,1d_click,1d click,5900,690000,14350,51.9,4983.88
+1005,Existing Customer | Upsell,1d_click,1d click,4100,188000,7800,84.5,10618.74
+1001,Prospecting | Broad,7d_click,7d click,18500,1820000,39200,209.3,22851.95
+1002,Prospecting | Lookalike,7d_click,7d click,13750,1260000,31100,177.2,18669.74
+1003,Retargeting | 30 Day,7d_click,7d click,8250,415000,18400,199.5,23280.39
+1004,Creative Test | Video,7d_click,7d click,5900,690000,14350,68.1,6654.68
+1005,Existing Customer | Upsell,7d_click,7d click,4100,188000,7800,110.9,13915.65
+1001,Prospecting | Broad,28d_click,28d click,18500,1820000,39200,231.3,25208.65
+1002,Prospecting | Lookalike,28d_click,28d click,13750,1260000,31100,193.1,19913.39
+1003,Retargeting | 30 Day,28d_click,28d click,8250,415000,18400,214.7,24947.28
+1004,Creative Test | Video,28d_click,28d click,5900,690000,14350,72.6,7057.73
+1005,Existing Customer | Upsell,28d_click,28d click,4100,188000,7800,117.9,14903.89
+1001,Prospecting | Broad,1d_view,1d view,18500,1820000,39200,25.2,2782.92
+1002,Prospecting | Lookalike,1d_view,1d view,13750,1260000,31100,21.0,2145.81
+1003,Retargeting | 30 Day,1d_view,1d view,8250,415000,18400,23.6,2752.05
+1004,Creative Test | Video,1d_view,1d view,5900,690000,14350,8.1,775.35
+1005,Existing Customer | Upsell,1d_view,1d view,4100,188000,7800,13.0,1643.61
+1001,Prospecting | Broad,7d_view,7d view,18500,1820000,39200,41.0,4514.55
+1002,Prospecting | Lookalike,7d_view,7d view,13750,1260000,31100,34.7,3637.53
+1003,Retargeting | 30 Day,7d_view,7d view,8250,415000,18400,38.8,4592.03
+1004,Creative Test | Video,7d_view,7d view,5900,690000,14350,13.1,1276.47
+1005,Existing Customer | Upsell,7d_view,7d view,4100,188000,7800,21.6,2698.51
+1001,Prospecting | Broad,28d_view,28d view,18500,1820000,39200,53.2,5814.98
+1002,Prospecting | Lookalike,28d_view,28d view,13750,1260000,31100,43.8,4602.05
+1003,Retargeting | 30 Day,28d_view,28d view,8250,415000,18400,49.4,5826.63
+1004,Creative Test | Video,28d_view,28d view,5900,690000,14350,16.6,1604.32
+1005,Existing Customer | Upsell,28d_view,28d view,4100,188000,7800,27.6,3487.76
+1001,Prospecting | Broad,1d_click+1d_view,1d click + 1d view,18500,1820000,39200,185.0,20382.01
+1002,Prospecting | Lookalike,1d_click+1d_view,1d click + 1d view,13750,1260000,31100,154.1,16086.9
+1003,Retargeting | 30 Day,1d_click+1d_view,1d click + 1d view,8250,415000,18400,174.5,20554.93
+1004,Creative Test | Video,1d_click+1d_view,1d click + 1d view,5900,690000,14350,59.2,5784.29
+1005,Existing Customer | Upsell,1d_click+1d_view,1d click + 1d view,4100,188000,7800,95.4,12099.33
+1001,Prospecting | Broad,1d_click+7d_view,1d click + 7d view,18500,1820000,39200,192.3,21517.34
+1002,Prospecting | Lookalike,1d_click+7d_view,1d click + 7d view,13750,1260000,31100,164.0,17392.41
+1003,Retargeting | 30 Day,1d_click+7d_view,1d click + 7d view,8250,415000,18400,187.2,21899.27
+1004,Creative Test | Video,1d_click+7d_view,1d click + 7d view,5900,690000,14350,62.2,6011.48
+1005,Existing Customer | Upsell,1d_click+7d_view,1d click + 7d view,4100,188000,7800,100.2,12605.86
+1001,Prospecting | Broad,1d_click+28d_view,1d click + 28d view,18500,1820000,39200,201.4,22013.0
+1002,Prospecting | Lookalike,1d_click+28d_view,1d click + 28d view,13750,1260000,31100,168.1,17669.97
+1003,Retargeting | 30 Day,1d_click+28d_view,1d click + 28d view,8250,415000,18400,191.4,22357.19
+1004,Creative Test | Video,1d_click+28d_view,1d click + 28d view,5900,690000,14350,64.9,6322.96
+1005,Existing Customer | Upsell,1d_click+28d_view,1d click + 28d view,4100,188000,7800,104.8,13177.96
+1001,Prospecting | Broad,7d_click+1d_view,7d click + 1d view,18500,1820000,39200,229.3,25842.62
+1002,Prospecting | Lookalike,7d_click+1d_view,7d click + 1d view,13750,1260000,31100,193.6,20427.54
+1003,Retargeting | 30 Day,7d_click+1d_view,7d click + 1d view,8250,415000,18400,216.5,25460.44
+1004,Creative Test | Video,7d_click+1d_view,7d click + 1d view,5900,690000,14350,73.0,7115.7
+1005,Existing Customer | Upsell,7d_click+1d_view,7d click + 1d view,4100,188000,7800,121.1,15045.54
+1001,Prospecting | Broad,7d_click+7d_view,7d click + 7d view,18500,1820000,39200,237.4,26068.87
+1002,Prospecting | Lookalike,7d_click+7d_view,7d click + 7d view,13750,1260000,31100,199.2,20704.34
+1003,Retargeting | 30 Day,7d_click+7d_view,7d click + 7d view,8250,415000,18400,228.8,26742.18
+1004,Creative Test | Video,7d_click+7d_view,7d click + 7d view,5900,690000,14350,75.6,7234.07
+1005,Existing Customer | Upsell,7d_click+7d_view,7d click + 7d view,4100,188000,7800,124.6,15741.26
+1001,Prospecting | Broad,7d_click+28d_view,7d click + 28d view,18500,1820000,39200,250.8,28050.92
+1002,Prospecting | Lookalike,7d_click+28d_view,7d click + 28d view,13750,1260000,31100,207.4,21671.06
+1003,Retargeting | 30 Day,7d_click+28d_view,7d click + 28d view,8250,415000,18400,236.7,27432.31
+1004,Creative Test | Video,7d_click+28d_view,7d click + 28d view,5900,690000,14350,80.2,7785.42
+1005,Existing Customer | Upsell,7d_click+28d_view,7d click + 28d view,4100,188000,7800,130.6,16651.67
+1001,Prospecting | Broad,28d_click+1d_view,28d click + 1d view,18500,1820000,39200,243.5,26919.28
+1002,Prospecting | Lookalike,28d_click+1d_view,28d click + 1d view,13750,1260000,31100,202.2,21141.76
+1003,Retargeting | 30 Day,28d_click+1d_view,28d click + 1d view,8250,415000,18400,229.5,26612.33
+1004,Creative Test | Video,28d_click+1d_view,28d click + 1d view,5900,690000,14350,77.5,7339.5
+1005,Existing Customer | Upsell,28d_click+1d_view,28d click + 1d view,4100,188000,7800,126.9,15703.24
+1001,Prospecting | Broad,28d_click+7d_view,28d click + 7d view,18500,1820000,39200,250.9,27461.41
+1002,Prospecting | Lookalike,28d_click+7d_view,28d click + 7d view,13750,1260000,31100,210.8,21803.6
+1003,Retargeting | 30 Day,28d_click+7d_view,28d click + 7d view,8250,415000,18400,238.9,28612.3
+1004,Creative Test | Video,28d_click+7d_view,28d click + 7d view,5900,690000,14350,81.8,7742.41
+1005,Existing Customer | Upsell,28d_click+7d_view,28d click + 7d view,4100,188000,7800,131.9,16517.95
+1001,Prospecting | Broad,28d_click+28d_view,28d click + 28d view,18500,1820000,39200,261.0,28533.93
+1002,Prospecting | Lookalike,28d_click+28d_view,28d click + 28d view,13750,1260000,31100,221.9,23532.79
+1003,Retargeting | 30 Day,28d_click+28d_view,28d click + 28d view,8250,415000,18400,249.2,29386.59
+1004,Creative Test | Video,28d_click+28d_view,28d click + 28d view,5900,690000,14350,82.9,7831.76
+1005,Existing Customer | Upsell,28d_click+28d_view,28d click + 28d view,4100,188000,7800,136.1,16987.24
