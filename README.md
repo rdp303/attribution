@@ -26,6 +26,14 @@ A grouped spend-response model for paid search or other CPC media. It fits a pow
 
 The grouping variable is configurable, so the same analysis can compare campaign type, brand vs. non-brand, market, product line, audience, keyword theme, or device.
 
+### 4. Multi-Touch Attribution Playground
+
+**Folder:** [`multi-touch-attribution/`](multi-touch-attribution/)
+
+Interactive journey-level attribution analysis comparing first-touch, last-touch, linear, time-decay, and 40/20/40 position-based attribution on the same customer paths.
+
+The project highlights how channel credit can move substantially even when the underlying customer journeys do not change. It includes a configurable time-decay half-life, channel-by-model sensitivity analysis, common converting paths, and synthetic demo journeys across Meta, Paid Search, YouTube, Email, Organic, and Direct.
+
 ## Repository structure
 
 ```text
@@ -55,6 +63,14 @@ attribution/
 │   ├── generate_sample.py
 │   ├── requirements.txt
 │   ├── data/
+│   └── tests/
+│
+├── multi-touch-attribution/
+│   ├── README.md
+│   ├── app.py
+│   ├── attribution_models.py
+│   ├── generate_sample.py
+│   ├── requirements.txt
 │   └── tests/
 │
 └── .github/workflows/
