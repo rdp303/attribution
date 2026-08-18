@@ -4,3 +4,11 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 .DS_Store
+
+# R / Robyn
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+robyn-mmm/outputs/*
+!robyn-mmm/outputs/.gitkeep
