@@ -1,11 +1,10 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from generate_sample import generate as generate_sample
 from attribution_models import (
     MODEL_NAMES,
     channel_summary,
@@ -16,9 +15,6 @@ from attribution_models import (
     model_volatility,
     validate_touchpoints,
 )
-
-ROOT = Path(__file__).resolve().parent
-SAMPLE_PATH = ROOT / "data" / "sample_journeys.csv"
 
 MODEL_LABELS = {
     "first_touch": "First touch",
@@ -39,7 +35,7 @@ with st.sidebar:
     source = st.radio("Source", ["Demo data", "Upload CSV"], index=0)
 
     if source == "Demo data":
-        raw = pd.read_csv(SAMPLE_PATH)
+        raw = generate_sample(n_journeys=600)
     else:
         uploaded = st.file_uploader("Touchpoint CSV", type=["csv"])
         if uploaded is None:
