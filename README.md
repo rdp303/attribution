@@ -16,17 +16,15 @@ Interactive Python/Streamlit report that compares Meta Ads campaign performance 
 
 A three-channel Marketing Mix Model built with Meta's open-source **Robyn** package. It models weekly **signups** using Facebook, PPC, and YouTube impressions, while retaining channel spend for ROI and budget-allocation outputs.
 
-The sample project demonstrates:
+The sample project demonstrates weekly MMM data preparation, exposure-based media inputs, spend + exposure pairing, Prophet controls, geometric adstock, saturation, ridge regression, Nevergrad optimization, and Pareto model comparison.
 
-- weekly MMM data preparation
-- exposure-based media inputs
-- spend + exposure pairing
-- Prophet trend/seasonality/holiday controls
-- geometric adstock
-- saturation curves
-- ridge regression
-- Nevergrad hyperparameter optimization
-- Pareto model comparison
+### 3. CPC Click Response / Decay Model
+
+**Folder:** [`cpc-click-decay-model/`](cpc-click-decay-model/)
+
+A grouped spend-response model for paid search or other CPC media. It fits a power curve between spend and clicks for each campaign group and translates the fitted curve into click elasticity, average CPC, marginal CPC, and marginal clicks per additional $1,000 of spend.
+
+The grouping variable is configurable, so the same analysis can compare campaign type, brand vs. non-brand, market, product line, audience, keyword theme, or device.
 
 ## Repository structure
 
@@ -49,6 +47,15 @@ attribution/
 │   ├── data_dictionary.md
 │   ├── data/
 │   └── outputs/
+│
+├── cpc-click-decay-model/
+│   ├── README.md
+│   ├── app.py
+│   ├── click_decay.py
+│   ├── generate_sample.py
+│   ├── requirements.txt
+│   ├── data/
+│   └── tests/
 │
 └── .github/workflows/
 ```
