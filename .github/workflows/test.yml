@@ -1,16 +1,48 @@
-name: test
+name: tests
 
 on:
   push:
   pull_request:
 
 jobs:
-  unit-tests:
+  meta-attribution-windows:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: meta-attribution-windows
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+  robyn-sample-data:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: python -m unittest discover -s tests -v
+      - name: Rebuild sample MMM data
+        run: python robyn-mmm/generate_sample.py
+      - name: Validate sample schema
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          path = Path("robyn-mmm/data/sample_mmm.csv")
+          rows = list(csv.DictReader(path.open()))
+          required = {
+              "DATE", "signups",
+              "facebook_impressions", "ppc_impressions", "youtube_impressions",
+              "facebook_spend", "ppc_spend", "youtube_spend",
+          }
+          assert len(rows) == 156
+          assert required.issubset(rows[0])
+          print("MMM sample data validated.")
+          PY
