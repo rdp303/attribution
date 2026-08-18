@@ -132,8 +132,8 @@ table = comparison.pivot_table(
 )
 st.dataframe(table.round(1), use_container_width=True)
 
-st.subheader("Common converting paths")
-paths = journey_paths(data, converted_only=True).head(15)
+st.subheader("Common customer paths")
+paths = journey_paths(data, converted_only=False).head(15)
 path_display = paths.copy()
 path_display["conversion_rate"] = path_display["conversion_rate"].map(lambda x: f"{x:.1%}")
 path_display["revenue"] = path_display["revenue"].map(lambda x: f"${x:,.0f}")
