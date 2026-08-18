@@ -35,6 +35,23 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
+  multi-touch-attribution:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: multi-touch-attribution
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate synthetic demo generation
+        run: python generate_sample.py
+
   robyn-sample-data:
     runs-on: ubuntu-latest
     steps:
