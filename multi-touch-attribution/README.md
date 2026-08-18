@@ -81,7 +81,7 @@ J00001,2025-01-05T09:00:00Z,Paid Search,1,240
 
 ## Demo data
 
-The included synthetic dataset contains 1,200 journeys across:
+Demo mode generates a reproducible synthetic dataset in memory. The generator defaults to 1,200 journeys across:
 
 - Meta
 - Paid Search
@@ -92,7 +92,7 @@ The included synthetic dataset contains 1,200 journeys across:
 
 The generator intentionally makes some channels more likely to appear early in journeys and others more likely to appear late. That creates a useful demonstration of how first-touch and last-touch rules can tell very different stories.
 
-Rebuild the sample:
+Write the generated sample to `data/sample_journeys.csv` if you want a physical CSV:
 
 ```bash
 python generate_sample.py
@@ -126,8 +126,6 @@ multi-touch-attribution/
 ├── attribution_models.py
 ├── generate_sample.py
 ├── requirements.txt
-├── data/
-│   └── sample_journeys.csv
 └── tests/
     └── test_attribution_models.py
 ```
